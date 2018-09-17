@@ -1869,7 +1869,7 @@ pre code {
 
 .table-dark {
   color: #fff;
-  background-color: #212529;
+  background-color: #212529 !important;
 }
 
 .table-dark th,
@@ -5686,7 +5686,7 @@ button.close {
   left: 0;
   z-index: 1060;
   display: block;
-  max-width: 276px;
+  max-width: 406px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
@@ -7549,7 +7549,9 @@ button.bg-dark:focus {
 .my-5 {
   margin-bottom: 3rem !important;
 }
-
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -7587,7 +7589,9 @@ button.bg-dark:focus {
 .py-1 {
   padding-top: 0.25rem !important;
 }
-
+.mb-min50{
+  margin-bottom: -50px;
+}
 .pr-1,
 .px-1 {
   padding-right: 0.25rem !important;

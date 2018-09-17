@@ -10,9 +10,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link rel="stylesheet" href="<?php echo base_url('assets/bootstrap/css/bootstrap.css'); ?>" >
   <link rel="stylesheet" href="<?php echo base_url('assets/bosbis/css/style.css') ?>">
   <!-- Javascript -->
-  <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js') ?>"></script>
+  <script src="<?php echo base_url('assets/bootstrap/js/popper.min.js') ?>"></script>
 	<script src="<?php echo base_url('assets/bootstrap/js/jquery-3.2.1.min.js') ?>"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js') ?>"></script>
   <script src="<?php echo base_url('assets/vendor/js/fontawesome-all.js') ?>"></script>
 </head>
 
@@ -45,8 +45,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?php echo base_url('ticket_order_list') ?>">Ticket Order List</a>
-          <a class="dropdown-item" href="#">Data Ticket Berbayar</a>
-          <a class="dropdown-item" href="#">Data Pemesanan Berbayar</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/data_ticket_terbayar') ?>">Data Ticket Berbayar</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/data_pemesanan_ticket') ?>">Data Pemesanan Berbayar</a>
         </div>
       </li>
     <!-- /////////////////////////////////////////// -->
@@ -55,12 +55,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           Refund
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Form Refund Request</a>
-          <a class="dropdown-item" href="#">Request Refund</a>
-          <a class="dropdown-item" href="#">Refund Terproses</a>
-          <a class="dropdown-item" href="#">Refund Berbayar</a>
-          <a class="dropdown-item" href="#">Refund Tertolak</a>
-          <a class="dropdown-item" href="#">Cari Data Refund</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/refund_form') ?>">Form Refund Request</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/request_refund') ?>">Request Refund</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/refund_terproses') ?>">Refund Terproses</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/refund_terbayar') ?>">Refund Terbayar</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/refund_tertolak') ?>">Refund Tertolak</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/data_refund') ?>">Cari Data Refund</a>
         </div>
       </li>
       <!-- /////////////////////////////////////////// -->
@@ -69,8 +69,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           Finance - CSO
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Payment Check</a>
-          <a class="dropdown-item" href="#">SMS Payment By Booking Code</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/payment_check') ?>">Payment Check</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/sms_payment') ?>">SMS Payment By Booking Code</a>
         </div>
       </li>
       <!-- /////////////////////////////////////////// -->
