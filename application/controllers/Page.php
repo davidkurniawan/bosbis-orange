@@ -58,4 +58,54 @@ class Page extends CI_Controller {
 		$this->load->view('page/finance/sms_payment');
 		$this->load->view('global/footer');
 	}
+	public function write_sms(){
+		$this->load->view('global/header');
+		$this->load->view('page/sms/write_sms');
+		$this->load->view('global/footer');
+	}
+	public function write_message(){
+		$this->load->view('global/header');
+		$this->load->view('page/sms/write_message');
+		$this->load->view('global/footer');
+	}
+	public function sms_broadcast(){
+		$this->load->view('global/header');
+		$this->load->view('page/sms/sms_broadcast');
+		$this->load->view('global/footer');
+	}
+	public function inbox(){
+		$this->load->view('global/header');
+		$this->load->view('page/sms/inbox');
+		$this->load->view('global/footer');
+	}
+	public function send_item_sms(){
+		$this->load->view('global/header');
+		$this->load->view('page/sms/send_item_sms');
+		$this->load->view('global/footer');
+	}
+	public function contact_group(){
+		$this->load->view('global/header');
+		$this->load->view('page/sms/contact_group');
+		$this->load->view('global/footer');
+	}
+	public function contact(){
+		$this->load->view('global/header');
+		$this->load->view('page/sms/contact');
+		$this->load->view('global/footer');
+	}
+	public function payment_chanel(){
+		$this->load->view('global/header');
+		$this->load->view('page/setting/payment_chanel');
+		$this->load->view('global/footer');
+	}
+	public function cso_profile(){
+		$this->load->view('global/header');
+		$this->load->view('page/setting/cso_profile');
+		$this->load->view('global/footer');
+	}
+	public function ubah_password(){
+		$this->load->view('global/header');
+		$this->load->view('page/setting/ubah_password');
+		$this->load->view('global/footer');
+	}
 }

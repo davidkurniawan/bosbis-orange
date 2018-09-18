@@ -79,13 +79,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           SMS Mode
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Write SMS</a>
-          <a class="dropdown-item" href="#">Write SMS Multi Destination</a>
-          <a class="dropdown-item" href="#">SMS Broadcast</a>
-          <a class="dropdown-item" href="#">Inbox</a>
-          <a class="dropdown-item" href="#">Sent Item</a>
-          <a class="dropdown-item" href="#">Contact Group</a>
-          <a class="dropdown-item" href="#">Contact</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/write_sms') ?>">Write SMS</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/write_message') ?>">Write SMS Multi Destination</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/sms_broadcast') ?>">SMS Broadcast</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/inbox') ?>">Inbox</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/send_item_sms') ?>">Sent Item</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/contact_group') ?>">Contact Group</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/contact') ?>">Contact</a>
         </div>
       </li>
       <!-- /////////////////////////////////////////// -->
@@ -94,9 +94,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           Setting
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">ON / OFF Payment Channel</a>
-          <a class="dropdown-item" href="#">CSO Profile</a>
-          <a class="dropdown-item" href="#">Ubah Password</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/payment_chanel') ?>">ON / OFF Payment Channel</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/cso_profile') ?>">CSO Profile</a>
+          <a class="dropdown-item" href="<?php echo base_url('page/ubah_password') ?>">Ubah Password</a>
           <a class="dropdown-item" href="#">Logout</a>
         </div>
       </li>
