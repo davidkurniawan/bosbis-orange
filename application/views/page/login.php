@@ -20,10 +20,17 @@
 			<div class="col-lg-12 text-center">
 				<h2>Hello, please sign in</h2>
 			</div>
-			<div class="col-lg-12">
-				<div class="login-border">
-					<div class="login text-center">
-						<h5>Clear username and password field to see validation.</h5>
+			<div class="col-lg-12 text-center">
+				<div class="card" style="width: 42rem;display: inline-block;">
+					<div class="card-body">
+				<h5 class="card-title">Clear username and password field to see validation</h5>
+						<div class="form-group">
+							<input type="text" class="form-control" name="username" placeholder="Your Username">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" name="username" placeholder="Type Your Password">
+						</div>
+						<button type="submit" class="btn btn-dark mb-4" style="float: right;">Submit</button>
 					</div>
 				</div>
 			</div>
