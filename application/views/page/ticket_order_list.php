@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="table order-list">
-					<div class="table-coll text-left">
+					<div class="table-coll text-left parallel-padding">
 						<h1><small>Ticket Order List</small></h1>
 					</div>
 					<div class="table-coll text-center">
@@ -19,7 +19,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-9">
+			<div class="col-lg-9 parallel-padding">
 				<!-- TAB PANE -->
 				<ul class="nav nav-tabs" id="ticket-list" role="tablist">
 				  <li class="nav-item">

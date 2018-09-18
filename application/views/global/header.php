@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Database
+          <span><i class="fas fa-database"></i> Database</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?php echo base_url('database_operator') ?>">Database Operator</a>
@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- /////////////////////////////////////////// -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Order
+          <span><i class="fas fa-briefcase"></i> Order</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?php echo base_url('ticket_order_list') ?>">Ticket Order List</a>
@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- /////////////////////////////////////////// -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Refund
+          <span><i class="fas fa-exchange"></i> Refund</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?php echo base_url('page/refund_form') ?>">Form Refund Request</a>
@@ -66,7 +66,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <!-- /////////////////////////////////////////// -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Finance - CSO
+          <span><i class="fas fa-money-bill"></i> Finance - CSO</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?php echo base_url('page/payment_check') ?>">Payment Check</a>
@@ -76,7 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <!-- /////////////////////////////////////////// -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          SMS Mode
+          <span><i class="far fa-mobile-alt"></i> SMS Mode</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?php echo base_url('page/write_sms') ?>">Write SMS</a>
@@ -91,7 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <!-- /////////////////////////////////////////// -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Setting
+          <span><i class="fal fa-user-alt"></i> Setting</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?php echo base_url('page/payment_chanel') ?>">ON / OFF Payment Channel</a>

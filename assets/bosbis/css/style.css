@@ -291,7 +291,9 @@ LEVEL 1. RESET STYLES
   color: var(--uiFieldPlaceholderColor);
   opacity: 1;
 }
-
+a.nav-link span{
+  color: #ef3249;
+}
 /*
 =====
 LEVEL 2. CORE STYLES
