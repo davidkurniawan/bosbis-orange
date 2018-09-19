@@ -3152,6 +3152,7 @@ tbody.collapse.show {
 }
 
 .dropdown-menu {
+  width: 100%;
   position: absolute;
   top: 100%;
   left: 0;
@@ -3271,7 +3272,7 @@ tbody.collapse.show {
   font-weight: 400;
   color: #212529;
   text-align: inherit;
-  white-space: nowrap;
+  white-space: normal;
   background-color: transparent;
   border: 0;
 }
