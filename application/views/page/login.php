@@ -35,13 +35,21 @@
 	<div class="container" style="">
 		<div class="row">
 			<div class="col-lg-12 text-center"> 
+
 				<h1 class="bosbis-text text-center">BosBis</h1>
+
 			</div>
+
 			<div class="col-lg-12 text-center">
+
 				<h2>Hello, please sign in</h2>
+
 			</div>
+
 			<div class="col-lg-12 text-center">
+
 				<form action="<?php echo base_url('login') ?>" method="POST">
+					
 				<div class="card">
 					<div class="card-body">
 				<h5 class="card-title">Clear username and password field to see validation</h5>
@@ -64,7 +72,9 @@
 						<button type="submit" class="btn btn-dark mb-4" style="float: right;">Submit</button>
 					</div>
 				</div>
+
 				</form>
+
 			</div>
 		</div>
 	</div>

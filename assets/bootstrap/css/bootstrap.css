@@ -4898,7 +4898,7 @@ tbody.collapse.show {
 }
 
 .badge-danger {
-  color: #fff;
+  color: #fff !important;
   background-color: #dc3545;
 }
 
