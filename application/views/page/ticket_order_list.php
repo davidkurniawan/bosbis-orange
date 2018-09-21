@@ -72,7 +72,6 @@
   									<th>Tangal</th>
   									<th>Jam</th>
 							    </tr>
-							   	
 							   <?php foreach ($bank_transfer as $key => $value): ?>
 							    <tr>
 							      <td><?php echo $value['cso_payment_code'] ?> <span><?php echo $value['cso_source'] ?></span></td>

@@ -12,7 +12,7 @@ function __construct() {
 	public function index()
 	{
 		$data['bank_transfer'] 	 	= $this->TicketOrderModel->read_order('Bank_Transfer');
-		$data['virtual_account']	= $this->TicketOrderModel->read_order('Virtual_Account');
+		$data['bri_va']				= $this->TicketOrderModel->read_order('BRI_VA');
 		$data['credit']				= $this->TicketOrderModel->read_order('Credit');
 		$data['mandiri_clickpay']	= $this->TicketOrderModel->read_order('Mandiri_ClickPay');
 		$data['DOKU']				= $this->TicketOrderModel->read_order('DOKU');
